@@ -779,7 +779,7 @@ link.active, .link {
   padding: 7px;
 }
 .six-part button:hover , .second-part-text button:hover{
-  box-shadow: 0px 0px 10px 5px white;
+  box-shadow: 0px 0px 10px white;
   transition: all 0.2s ease-in-out;
 }
 
