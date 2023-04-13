@@ -59,8 +59,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.slick-arrow{
+  font-size: 0;
+}
+
 .slick-prev {
-  left: 25px;
+  left: 50px;
+  z-index: 1;
 }
 [dir="rtl"] .slick-prev {
   right: 25px;
@@ -73,7 +79,7 @@
   content: "→";
 }
 .slick-next {
-  right: 37px;
+  right: 80px;
 }
 [dir="rtl"] .slick-next {
   right: auto;

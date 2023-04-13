@@ -6,6 +6,11 @@
   margin: 0;
   padding: 0;
 }
+.slick-prev:before,.slick-next:before {
+  color: #B2B2BA;
+}
+
+
 .svg-round {
   fill: white;
     height: auto;
@@ -308,6 +313,14 @@ link.active, .link {
   width: 20%;
   height: 100%;
 }
+.subnav-1 .logo-1 a:hover{
+  color: #fff800;
+}
+.subnav-1 .logo-1 a{
+  text-decoration: none;
+  color: white;
+}
+
 
 .subnav-1 .menus {
   width: 70%;
@@ -389,6 +402,9 @@ link.active, .link {
   position: relative;
   padding: 20px 0px 5px 0px;
 }
+.second-part button img{
+  margin-left: 7px;
+}
 
 .main-section {
   display: grid;
@@ -398,6 +414,9 @@ link.active, .link {
 }
 
 @media only screen and (max-width: 812px) {
+  .second-part-text{
+    padding: 0px 0px 40px 0px!important;
+  }
   .main-section{
     gap: 0;
   }
@@ -409,7 +428,7 @@ link.active, .link {
 }
 
 .main-section .second-part-image figure img {
-  height: 100%;
+  height: 80vh;
   width: 100%;
 }
 .main-section .second-part-image figure img:hover{
@@ -422,18 +441,23 @@ link.active, .link {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
+  padding: 60px 0px 0px 25px;
   gap: 1rem;
 }
 
 .second-part-text button {
-  width: 9rem;
+  width: 195px;
   border: none;
   background-color: black;
   color: white;
   padding: 7px;
+  
 }
-
+.second-part-text button img{
+  height: 30px;
+  width: 50px;
+}
 /* for past text */
 .hidden-text {
   display: none;
@@ -451,7 +475,7 @@ link.active, .link {
 .third-part {
   background-color: white;
   color: black;
-  padding: 4rem 0 7rem 0;
+  padding: 110px 0 160px 0;
 }
 .third-part a{
   padding-left: 0px;
@@ -505,9 +529,8 @@ link.active, .link {
   height: 100%;
 }
 
-.main-third-part .third-part-image figure,
 .main-third-part .third-part-image figure img {
-  height: 100%;
+  height: 90vh;
   width: 100%;
 }
 .main-third-part .third-part-image figure img:hover{
@@ -527,7 +550,7 @@ link.active, .link {
 /* ---------forth-part start------------ */
 
 .forth-part .main-section {
-  padding: 0rem 3rem 2rem 3rem;
+  padding: 0rem 3rem 1rem 3rem;
   background-color: black;
   position: relative;
   height: auto;
@@ -629,22 +652,10 @@ link.active, .link {
   color: white;
   background-color: #e96906;
   -webkit-clip-path: polygon(
-    0% 20%,
-    60% 20%,
-    60% 20%,
-    65% 50%,
-    60% 86%,
-    60% 86%,
-    0 90%
+    75% 0%,80% 50% , 75% 100%, 0% 100%, 0% 100%, 0% 50%, 0% 0%
   );
   clip-path: polygon(
-    0% 20%,
-    60% 20%,
-    60% 20%,
-    65% 50%,
-    60% 86%,
-    60% 86%,
-    0 90%
+    75% 0%,80% 50% , 75% 100%, 0% 100%, 0% 100%, 0% 50%, 0% 0%
   );
 }
 
@@ -654,22 +665,10 @@ link.active, .link {
   color: white;
   background-color: #e96906;
   -webkit-clip-path: polygon(
-    0% 20%,
-    60% 20%,
-    60% 20%,
-    65% 50%,
-    60% 86%,
-    60% 86%,
-    0 90%
+    75% 0%,80% 50% , 75% 100%, 0% 100%, 0% 100%, 0% 50%, 0% 0%
   );
   clip-path: polygon(
-    0% 20%,
-    60% 20%,
-    60% 20%,
-    65% 50%,
-    60% 86%,
-    60% 86%,
-    0 90%
+    75% 0%,80% 50% , 75% 100%, 0% 100%, 0% 100%, 0% 50%, 0% 0%
   );
   transition: all 0.1s ease-in-out;
 }
@@ -713,7 +712,7 @@ link.active, .link {
 .main-six-part {
   width: 100%;
   height: auto;
-  padding: 80px 0;
+  padding: 80px 0 100px 0px;
 }
 
 .food-gallery {
@@ -721,6 +720,7 @@ link.active, .link {
   width: 100%;
   color: rgb(255, 255, 255);
   text-align: center;
+  padding: 15px 0px;
 }
 
 .gallery-images {
@@ -764,7 +764,7 @@ link.active, .link {
   height: 40px;
 }
 
-.gallery-button img {
+.six-part button img{
   height: 30px;
   width: 50px;
 }
@@ -774,6 +774,7 @@ link.active, .link {
   color: white;
   border: none;
   padding: 7px;
+  margin-top: 30px;
 }
 .six-part button:hover , .second-part-text button:hover{
   box-shadow: 0px 0px 10px white;
@@ -836,6 +837,14 @@ link.active, .link {
   padding: 25px;
   opacity: 0.9;
 }
+.sub-seventh-part-text h2 a{
+  text-decoration: none;
+  color: black;
+}
+.sub-seventh-part-text h2 a:hover{
+  color: #e96906;
+}
+
 .sub-seventh-part-text h5{
   color: rgb(255, 81, 0);
 }
@@ -941,13 +950,12 @@ link.active, .link {
   height: 3rem;
   width: 11rem;
   color: white;
-  /* border-radius: 8px; */
 }
+
 .main-eight-part-form form button:hover,
 .main-nineth-part button:hover,
 .tenth-part button:hover {
-  box-shadow: 0px 0px 15px #E96906;
-  /* font-size: 1.2rem; */
+  box-shadow: 0px 0px 10px #E96906;
   transition: all 0.2s ease-in-out;
 }
 /* -------------eight-part end 
@@ -962,8 +970,6 @@ link.active, .link {
 
 .main-nineth-part {
   display: flex;
-  flex-direction: row;
-  height: 85vh;
   width: 100%;
 }
 .main-nineth-part button{
@@ -975,8 +981,7 @@ link.active, .link {
 }
 
 .nine-center {
-  width: 45%;
-  height: 100%;
+  width: 60%;
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
@@ -1121,14 +1126,16 @@ link.active, .link {
 .eleventh-part .main-eleventh-part .eleventh-part-1 .locs-box:not(:nth-of-type(1))::after {
   content: "";
   position: absolute;
-  top: 0;
+  top: 25px;
   left: 0;
   width: 1px;
-  height: 100%;
+  height: 55%;
   background: white;
 }
 
 .hr-11 {
+  width: 95%;
+  margin: 0 auto;
   color: white;
   opacity: 1;
 }
