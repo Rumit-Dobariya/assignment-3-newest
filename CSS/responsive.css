@@ -285,8 +285,6 @@
     width: 100%;
   }
   .sub-seventh-part-text {
-    /* position: absolute;
-    top: 100%; */
     width: 100%;
     align-items: center;
   }
@@ -297,16 +295,11 @@
   .sub-seventh-part-text h3 {
     font-size: 20px;
   }
-  .sub-seventh-part-image img {
-    width: 12rem;
-    height: 10rem;
-  }
+  
   .sub-seventh-part-image {
     height: 70%;
   }
-  .sub-seventh-part-text {
-    top: 70%;
-  }
+
   .seventh-part {
     height: 115vh;
   }
